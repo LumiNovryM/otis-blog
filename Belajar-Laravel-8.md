@@ -16,3 +16,16 @@ Blade Templating Engine adalah templating engine milik laravel
  - @extends : Untuk Memperluas penggunaan style
  - @include : Untuk mengambil baris code 
  - @section : Untuk mengisi bagian yang sudah ditandai 
+
+# 5.Model, Collection, dan Controller
+
+`Model`
+Bagian yang mengatur database
+`Cara Membuat Model`
+php artisan make:model Model (Singular)
+
+`Collection`
+Fitur laravel yang mempermudah pengelolaan array
+
+`Controller`
+Bagian yang menjadi penghubung antara Model dan View  
