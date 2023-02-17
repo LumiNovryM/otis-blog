@@ -36,4 +36,5 @@ Route::get('/about', function () {
 Route::get('/blog', [PostController::class, 'index'])->name('blog');
 
 # Halaman Single Post
-Route::get('posts/{slug}', [PostController::class, 'show']);
+# Route Model Binding
+Route::get('posts/{post:slug}', [PostController::class, 'show']);
